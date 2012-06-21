@@ -1,6 +1,6 @@
 ## The Bastards Book of Photography
 
-Visit it at [photography.bastardsbook.com](photography.bastardsbook.com)
+Visit it at [photography.bastardsbook.com](http://photography.bastardsbook.com)
 
 By [Dan Nguyen](http://danwin.com) [@dancow](http://twitter.com/dancow)
 

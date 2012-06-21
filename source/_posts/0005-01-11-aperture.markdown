@@ -1,0 +1,140 @@
+---
+layout: post
+title: "Aperture: the Hole for Light"
+date: 2012-06-19 19:01
+comments: true
+categories: 
+description: The bigger the hole, the bigger the light
+ledeimage: "south-williamsburg-about-to-be-raptured-_-5834643097.jpg"
+ledecaption: "A break in a cloudy morning while riding the East River Ferry."
+---
+
+Aperture refers to how wide the lens can open. How it affects exposure is straightforward: the bigger the hole (i.e. **aperture**) for light to go through, the more light available for the exposure.
+
+<!--more-->
+
+
+<div class="imgwrap">
+	<img src="{{site.graphics_dir}}/1000px-Aperture_diagram.svg.png" alt="Wikipedia's aperture diagram">
+	<div class="caption">
+		A depiction of how aperture values (i.e. <strong>f-numbers</strong>) relate to the physical size of the hole. Each circle represents a stop, e.g. f/2 lets in twice the light of f/2.8 (<a href="http://en.wikipedia.org/wiki/File:Aperture_diagram.svg" title="File:Aperture diagram.svg - Wikipedia, the free encyclopedia">Wikipedia</a>)
+	</div>
+</div>
+
+
+## Why are some lenses called "fast"? And why are they so expensive/heavy?
+
+We know that *increasing* the **shutter speed** reduces exposure. So if *increasing* (the width) of the **aperture** increases exposure...then:
+
+<blockquote>wider aperture <em>allows for</em> faster shutter speed</blockquote>
+
+Those expensive, bulky lenses are called "fast" because they let you shoot fast. A premium lens, at its widest setting, may allow *two* additional stops (four times the amount of light) than the widest aperture of a cheaper lens.
+
+<div class="imgwrap">
+	<img src="{{site.graphics_dir}}/canon-24-70--17-85.jpg" alt="Wikipedia's aperture diagram">
+	<div class="caption">
+		At left, <a href="http://www.amazon.com/Canon-24-70mm-2-8L-Standard-Cameras/dp/B00009R6WT">Canon's 24-70mm f/2.8</a> professional lens ($1,800). At right, its <a href="http://www.amazon.com/Canon-17-85mm-4-5-6-Stabilized-Digital/dp/B0002Y5WXO">17-85mm lens</a>, with f/4 being its widest aperture (~$600). (Product images not to scale)
+	</div>
+</div>	
+
+## How does shutter speed and aperture number relate to each other?
+
+Here's a simple table showing the <strong>inverse</strong> relation between shutter speed and aperture value:
+
+<table class="cats">
+	<tr>
+		<td>Shutter speed</td>
+		<td>1/1000</td><td>1/500</td><td>1/250</td><td>1/125</td><td>1/60</td><td>1/30</td>
+	</tr>
+	<tr>
+		<td>Aperture value</td>
+		<td>1.4</td><td>2.0</td><td>2.8</td><td>4</td><td>5.6</td><td>8</td>
+		
+	</tr>
+</table>
+
+## What's with the numbering system for aperture?
+The aperture value is often referred to as the <strong>f-number</strong>.
+
+A couple of things to note:
+
+1. The f-number <em>increases</em> as the aperture physically <em>narrows</em>. This means that a low f-number, such as f/2.8, relates to a very wide aperture hole.
+
+2. In shutter speeds, <strong>1/50</strong> is one stop more than <strong>1/100</strong>...a simple ratio of 2. But you do not double/halve the f-number to get to the next stop, e.g. <strong>f/4</strong> is one stop less than <strong>f/2.8</strong>. This <a href="http://www.uscoles.com/fstop.htm">goes back to your geometry lessons</a>. Needless to say, it's pretty easy to memorize the actual intervals and yet I don't think it's particularly important to do so.
+
+
+
+## How do I turn on Aperture Priority mode?
+ 
+The mode is typically listed as **A** on your camera's selection control (not to be mistaken for "Auto" mode).
+
+<div class="imgwrap inset">
+	<img src="{{site.graphics_dir}}/aperture-dial.png" alt="A for Aperture">
+</div>	
+
+As you twiddle with the aperture, you should notice two things:
+
+1. The shutter speed should *decrease* as the aperture value *increases*.
+2. You have much less leeway in adjusting aperture compared to shutter speed. 
+
+In other words, you might be able to keep the shutter open for as long as <strong>30</strong> seconds, which is something like *12 stops* higher than <strong>1/100th</strong> of a second. 
+
+But even the most expensive lenses don't give you more than <em>6 to 8 stops</em> between the absolute widest and narrowest aperture, e.g. <strong>f/2.8</strong> to <strong>f/22</strong>.
+
+
+In other words, with shutter speed, you can slow it down to whatever rate is necessary to see in the dark. But you can't open the aperture of the lens to an arbitrarily wide point.  
+
+Thus you have <strong>less freedom </strong> in Aperture Priority mode to adjust to low light.
+
+
+## So why even use Aperture Priority mode?
+
+I typically use [shutter speed priority]({% postpath shutter-speed-priority %}) when walking around, especially when light is scarce.
+
+However, when light is plentiful (which means you don't worry that your camera will drop the shutter speed to a motion-blur inducing rate), then you might try out <strong>aperture mode</strong> because it gives you greater control over which part of your photo is in sharp focus. 
+
+<div class="imgwrap wide feature">
+{% imgdatadiv chinatown-flower-cart-_-5131696659.jpg large %}
+<div class="caption">
+	This photo was taken in broad daylight and so I was able to open the aperture as wide as the lens allowed. I didn't really achieve the effect I wanted &ndash; isolating the flower cart from the rest of the scene through a shallow depth of field &ndash; but this explains the extremely high shutter speed &ndash; set by my camera since I had taken charge of aperture &ndash; for a scene with relatively slow movement.
+</div>
+</div>
+
+
+
+
+##### A quick refresher on focus
+We haven't covered the topic of focus yet (it's OK to use autofocus, I still do it most of the time). But you know it as the thing you have to do to keep the subject's details sharp, i.e. "in focus."
+
+Conversely, the parts of the scene that are "out of focus" are blurry.
+
+Objects that are at a different distance between you and the point of focus will be blurrier than what's at the focus point. The farther that distance, the bigger the blur.
+
+## What does aperture have to do with focus?
+
+The aperture value changes how far objects can be away from the focal point and <strong>still be in focus</strong>. This concept is called <strong>depth of field</strong>:
+
+* A <strong>wide</strong> aperture (i.e. a <em>low</em> f-number like f/2.8) will result in a <strong>shallow DOF</strong>: if you focus on the subject's nose, for instance, the eyes may be out of focus.
+
+* A <strong>narrow</strong> aperture (i.e. a <em>high</em> f-number like f/16) will result in a <strong>deeper DOF</strong>: the first person in a crowd of people facing you may be as sharp as a person several rows behind her.
+
+
+<div class="wide imgwrap feature">
+	{% imgdatadiv time-warner-center-south-side-_-5897438667.jpg large%}
+   
+<div class="caption">
+	The Time Warner Center in Midtown Manhattan. When there's plenty of light, as there is here with the sun shining at me, a narrow aperture helps keep as much of the scene in sharp focus.
+</div>   
+</div>
+
+
+
+
+We'll cover depth of field in-depth in the [next lesson]({% postpath depth-of-field %}).
+
+<div class="imgwrap wide feature">
+{% imgdatadiv pilot-snapshot-march-from-wall-street-_-6190016852.jpg large %}
+<div class="caption">
+	I wanted to capture as much detail of this long line of pilots as possible and there was enough daylight to increase the aperture value. However, I went too far, and in order to keep the same exposure, my camera dropped the shutter speed down (I was in aperture priority mode)to compensate. This is why the camera hand of the pilot is slightly blurred, as I apparently snapped the shot as it was in motion.
+</div>
+</div>

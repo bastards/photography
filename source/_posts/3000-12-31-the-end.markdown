@@ -1,0 +1,55 @@
+---
+layout: post
+title: "The End"
+description: "The roadmap for future lessons and directions on how to complain to me."
+date: 2012-06-20 23:01
+comments: true
+categories: 
+ledeimage: "canon-s100-first-shots-_-6468713071.jpg" 
+ledecaption: "The Hudson River in fog, using my Canon S100 Powershot."
+---
+
+Congratulations, you've reached the end of what I've written for the Bastards Book of Photography...so far.
+
+<!--more-->
+
+I want to keep this book short and to its original goal &ndash; a quick guide on how to use your camera's manual controls &ndash; but there's plenty of topics to cover, including:
+
+* Ambient light versus direct light
+* Focus
+* Focus selection
+* Focal length and perspective
+* The use of flash
+* Post-processing
+* Some tips on street photography and portraiture
+
+
+
+
+I also have a few interactive features I plan to add to make the lessons more useful.
+
+At the very least, I can keep adding photos.
+
+
+
+
+**Have any suggestions?** Feel free to leave a message in the [Feedback]({{site.feedback_url}}) section.
+
+## Want updates?
+Follow me ([@dancow](http://twitter.com/dancow)) and [@bastardsbook](http://twitter.com/bastardsbook) on Twitter. There's also a less-frequently updated [Facebook page](http://facebook.com/The-Bastards-Book) and [blog](http://blog.bastardsbook.com).
+
+If you're really into details, check out the <a href="https://github.com/bastards/photography">Github</a> repo. 
+
+
+Thanks for reading and keep shooting!
+&ndash; Dan
+
+## More Resources
+* [CameraSim: SLR Photography Demystified](http://camerasim.com/) &ndash; one of the best tools I've ever seen to understanding exposure
+* [DPReview](http://dpreview.com) &ndash; the definitive repository for in-depth reviews
+* [Snapsort](http://snapsort.com) &ndash; an excellent site to do quick camera comparisons
+* [Cambridge in Colour](http://www.cambridgeincolour.com/) &ndash; a beautiful guide to general concepts and theory
+* [Bernie’s Better Beginner’s Guide to Photography for Computer Geeks Who Want to be Digital Artists](http://berniesumption.com/photography/beginners-guide-for-geeks/) &ndash; this was one of the most helpful guides for me when I started shooting. I still refer to it from time to time.
+* [Strobist](http://www.strobist.blogspot.com/) &ndash; I'm not an expert with lighting but this guy is.
+* [r/photography](http://www.reddit.com/r/photography) &ndash; Reddit's active photography community
+

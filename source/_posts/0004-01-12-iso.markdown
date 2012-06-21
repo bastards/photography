@@ -1,0 +1,97 @@
+---
+layout: post
+title: "Be Sensitive with ISO"
+description: "Configure your camera to do more with the light it sees"
+date: 2012-06-19 18:01
+comments: true
+categories: 
+ledecaption: "Walking down Doyers Street in Chinatown, Manhattan, after dim-sum."
+ledeimage: "doyers-street-chinatown-_-6894978202.jpg" 
+---
+
+ISO is a measurement of your camera's sensitivity to light.
+
+So with shutter speed, we control the *amount* of light that reaches the camera. With ISO, we're control how *sensitive* the camera is to that quantity of light. 
+
+Think of ISO as shutter speed's wingman in the ongoing battle to maintain good exposure. As shutter speed needs to increase (thus, reducing light), ISO increases to make more use of that light.
+<!--more-->
+
+
+
+The good thing about ISO is that you don't have to put much thought into it.
+
+First of all, you want to keep ISO as *low as possible*. Unlike with shutter speed and aperture, there really isn't a good reason to have higher-than-needed ISO. Because no one really wants the effect that high ISO creates.
+
+## What does high ISO do to a photo?
+It creates noise, random pixelation that can smudge the fine detail in an image. I suppose that some photographers do enjoy this look when it evokes the "grain" texture that sensitive film has. But as colored pixels, it's not usually flattering.
+
+**However**, if I'm shooting at night, the choice is usually either a high amount of noise or unwanted motion blur. Noise is almost always the better route as you can take some steps to reduce it in post-processing.
+
+<div class="wide imgwrap feature">{% imgdatadiv gehry-s-8-spruce-street-from-_-7361743556.jpg large%}
+<div class="caption">Frank Gehry's building on 8 Spruce Street, as seen from the Brooklyn Bridge</div>	
+</div>
+
+
+<div class="imgwrap medium">
+	<img src="{{site.graphics_dir}}/8-spruce-noise.jpg" alt="8 Spurce blowup">	
+	<div class="caption">
+		I shot the same scene twice. On the left is a closeup of the image at ISO 500 but at a shutter speed of 1 second, a rate slow enough to guarantee camera shake without a tripod. On the right is the scene at ISO 1600 but a more manageable shutter speed of 1/10s.
+		<br><br>
+		As you can see, the right image is noisier, but retains sharper detail because it has less motion blur.
+	</div>
+</div>
+
+
+
+## How much ISO is too much?
+The biggest factor is how much you spent on your camera, which directly relates to the size and quality of its film sensor. Sean Arbabi, of Endgaget, wrote [an excellent explanation of this](http://www.engadget.com/2011/12/16/engadget-primed-why-your-cameras-sensor-size-matters/ "Engadget Primed: Why your camera's sensor size matters -- Engadget").
+
+On a high-end camera, such as the Canon 5D series and the Sony NEX-7, I feel perfectly comfortable at 1600 (check out DPReview's tests [here](http://www.dpreview.com/reviews/canoneos5dmarkii/38 "Canon EOS 5D Mark II In-depth Review: Digital Photography Review") and [here](http://www.dpreview.com/reviews/sonynex7/26 "Sony NEX-7 In-Depth Review: Digital Photography Review")). On lesser cameras with smaller sensors, such as the [Canon S100](http://www.dpreview.com/reviews/canons100/11 "Canon PowerShot S100 Review: Digital Photography Review"), I try not to go over 800.
+
+
+## How do you alter ISO?
+The ISO setting is is often frustratingly buried in some menu, though high end cameras have a button devoted to it. ISO can be moved up and down like shutter speed in order to affect the exposure. But there isn't (as far as I know), an ISO-priority mode.
+
+I believe that most modern cameras have an auto-ISO setting that will waver between 100 (which is often the lowest amount of ISO) and some preset ceiling. The Sony NEX-7, for instance, can reach an ISO as high as **16,000.** Its auto-mode, however, tops out at 1600.
+
+
+
+<div class="wide imgwrap feature">{% imgdatadiv taxis-in-the-rain-east-village-_-7182736547.jpg large%}
+<div class="caption">There's not much you can do to avoid noise if you're taking a late night photo and want to minimize motion blur. At least here, it mixes nicely with the rain.</div>	
+</div>
+
+<div class="imgwrap medium">
+	<img src="{{site.graphics_dir}}/taxi-noise-rain.jpg" alt="Taxi close-up">	
+</div>
+
+
+## When should you rely on the auto setting?
+
+During the daytime, I think auto-ISO is fine, as you'll rarely get into a situation in which the camera bumps the ISO past a level like 400. Most of the time, it'll stick at 100, which is great.
+
+## When should you manually set the ISO?
+At night time, I'll set the ISO at the highest level that I'm comfortable with. Again, this varies with each camera. If the light conditions improve and I want to maintain the same exposure, I usually increase the shutter speed before reducing the ISO value. Again, preventing motion blur is a higher priority, in my opinion.
+
+
+
+<div class="wide imgwrap feature">{% imgdatadiv in-manhattan-walking-home-from-the-_-4384274432.jpg large%}
+<div class="caption">I snapped this shot with my compact Canon S90 while walking home in the rain in midtown Manhattan. I kept the ISO at 800 because I was worried about noise, but I ended up sacrificing enough shutter speed to cause a little blur.</div>	
+</div>
+
+
+So ISO management doesn't have to add too much to your multitasking. During a photo shoot, you should find a level that allows you breathing room in terms of shutter speed and leave it at that.
+
+
+## How do you reduce noise in an image file?
+
+I'll write a chapter on this in the future. But most photo editing programs, including Photoshop, have specialized noise reduction filters. They can clean up images but they can't do magic; removing too much noise will remove the ugly pixellation, at the cost of making the entire image soft.
+
+
+**A word of caution:** Some photographers swear that ISO 200 is too much, even in a $3,000 camera. As you can obviously tell, I'm not particularly picky about perfecting my photos so I may not be a good person to listen to. But in a good camera, I don't see issues for anything under ISO 400, unless you plan on printing to a billboard.
+
+But if you're new to low-light photography, you will definitely have more issues with a slow shutter speed than you will with ISO. So I recommend just tolerating the noise until you either get a tripod or become better at holding still.
+
+
+
+
+

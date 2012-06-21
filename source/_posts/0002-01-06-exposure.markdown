@@ -1,0 +1,130 @@
+---
+layout: post
+title: "Exposure: the Quantity of Light"
+date: 2012-06-19 02:20
+comments: true
+categories: 
+description: "An introduction to how your camera lets the right (or wrong) amount of light in."
+ledeimage: "rome-s-colosseum-on-full-moon-_-7374884974.jpg" 
+ledecaption: "Rome's Colosseum"
+---
+
+
+**Exposure** is the amount of light that your camera uses to produce a photo. The entirety of this book is pretty much devoted to how to control exposure by changing *how* your camera lets light in.
+
+
+
+<!--more-->
+Sometimes you just have to make do with what light you have.
+Without knowing anything about manual controls, you can still move around and move your subject. Knowing manual controls gives you many more options and flexibility.
+
+
+For our purposes, the complicated math formula behind this can be reduced to:
+
+1. More light == brighter photo
+2. Less light == darker photo
+
+
+
+## How does a camera automatically determine the proper exposure?
+When turned on and pointed at a subject, your camera is taking in light. It then calculates how much light is needed to keep the subject (or the entire scene) from being too dark or too bright.
+
+Try this.
+
+<ol>
+<li>Point your digital camera at a <strong>dark</strong> place, such as a corner or under the table.</li>
+
+
+<li>Then point it <em>quickly</em> at a <strong>bright</strong> scene, such as out the window. The camera's LCD should turn almost completely white. 
+
+The following photo is taken from inside of Federal Hall on Wall Street, right after I had pointed it toward a dark corner:
+
+<div class="imgwrap medium">
+	<img src="{{site.graphics_dir}}/federal-hall-bright-7367950976.jpg" alt="Bright">
+</div>	</li>
+
+<li>After a second or two, the LCD screen should <strong>darken</strong> a bit overall, revealing more detail in the scene:
+
+<div class="imgwrap medium">
+	<img src="{{site.graphics_dir}}/federal-hall-proper-7367951908.jpg" alt="Proper">
+</div>	
+</li>
+</ol>
+
+This delayed reaction is caused by the lag in calculating the correct exposure. Your camera's computer is trying to figure out the right amount of light to let in.
+
+## How much is the right amount of light?
+
+**The long answer:** Figuring that out is the basis of this entire book, and the "right" amount varies per situation, subject, and photographer's aesthetic sensibility.
+
+**The answer, for now:** It's what your computer determines is the right amount of light to properly show the **subject**.
+
+In the graphic below are three iPhone photos of the same scene. The <span style="color:#CB5600">orange circles</span> represent the areas that the phone camera is exposing for (you'll learn how to do this in the [spot-selection lesson]({%postpath spot-exposure%})):
+
+<div class="imgwrap wide">
+	<img src="{{site.graphics_dir}}/three-iphone-exposures.jpg">
+</div>
+
+In each frame, the camera attempts to make the area within the <span style="color:#CB5600">orange circle</span> appear as a neutral midtone. Everything else in the photo has a brightness level relative to the exposed spot.
+
+
+
+## How does the camera know what the "subject" is?
+By default, most cameras assume that it's what the center is. In simple point and shoots, you can't change this. In modern phone cameras, you have some flexibility in choosing the spot to expose, which I cover in the [spot-selection lesson]({%postpath spot-exposure%}).
+
+## What's wrong with properly exposing the subject?
+It's not about right or wrong; it's about what visual effect you intend to show.
+
+In the last chapter, we learned how the sun behind the subject creates a <strong>silhouette</strong>. 
+
+When a camera is in auto-exposure mode, it will adjust the light so that your subject is **not** a silhouette.
+
+As the subject gets brighter, so does the rest of the background. This is what is called, "blowing out the background."
+
+In the photo below, I deliberately reduced the exposure to use **one-fourth** the light compared to the camera's default exposure. The model is almost completely a shadow. Had I let the camera do the exposure, the details in the model's clothing could probably be seen, but the entire sky would likely be white, i.e. blown out.
+
+<div class="imgwrap feature wide">
+	{% imgdatadiv proofny-com-photoshoot-nyc-_-7268678764.jpg large %}
+	<div class="caption">Taken at the High Line, for <a href="http://proofny.com">Proof NY</a></div>
+</div>
+
+
+In other words, the **"well-exposed" photo is not always the best photo**.
+
+
+The camera generally does a great job when the light is right.
+
+But under extreme conditions, such as bright sunlight on a snowfield. Or a dark room. Or for if a  ray of light happens to shine directly into the region  (generally, the center point) where the camera makes its judgment, the camera may do something you don't want.
+
+*This* is why we want to take control of exposure for ourselves.
+
+
+
+
+<div class="imgwrap feature wide">
+	{% imgdatadiv child-greeting-dogs-battery-park-_-6052102674.jpg large %}
+	
+	<div class="caption">
+		Here's where the camera's default judgment of exposure worked out well. The subjects of the photo &ndash; the people and the dogs &ndash; have just about the right amount of detail and color. The camera obviously exposed for the subjects. Had it exposed for the Hudson River, which is reflecting back a ton of direct sunlight, these people and their dogs would be shadows. The tradeoff is that there is almost no detail in the background
+	</div>	
+</div>
+
+<div class="imgwrap feature wide">
+	{% imgdatadiv volleyball-court-in-battery-park-_-6051547963.jpg large %}
+	
+	<div class="caption">In this photo, I've slightly underexposed the photo and I think the camera is exposing for a relatively dark area to begin with. This is why you can see New Jersey and a little detail in the Hudson River. The volleyball players in the foreground are mostly silhouettes. 
+	</div>	
+</div>
+
+
+<div class="imgwrap feature wide">
+	{% imgdatadiv taxi-ride-and-meter-_-6744055601.jpg large %}
+	<div class="caption">An evening taxi ride. I'm not sure if this exposure is the result of the camera's judgment, or if this was as much light as it could let in given my settings. Either way, I got the intended effect: only the LED lighting &ndash; and the lights of the city and traffic &ndash; are emphasized. </div>
+</div>
+
+
+
+
+
+
+

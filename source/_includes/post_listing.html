@@ -1,0 +1,13 @@
+
+<div class="post-listing" onclick="javascript:window.open('{{ root_url }}{{ post.url }}','_self', false);">
+	{% if post.ledeimage %}		
+		<div class="preview imgwrap"><a href="{{ root_url }}{{ post.url }}"><img src="{{site.images_dir}}/preview/{{post.ledeimage}}" alt="post.title"></a>
+		</div>
+	{% endif %}
+
+	<h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
+	<div class="entry-excerpt">{{ post.description }}
+	<br><a href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>	
+	</div>
+
+</div>

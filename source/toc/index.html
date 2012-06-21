@@ -1,0 +1,31 @@
+---
+layout: special
+---
+
+<div class="blog-index">
+<article>
+	<h2>Table of Contents</h2>
+	
+  {% assign index = true %}
+<div id="masonry-container">
+  {% for post in paginator.posts %}
+  	{% assign content = post.content %}
+	<div class="thirds item">
+  		{% include post_listing.html %}
+  	</div>
+
+	{% endfor %}
+ </div> 
+</article>
+
+</div>
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+/*
+$.domReady(function(){	var wall = new Masonry( document.getElementById('masonry-container'), {gutterWidth: 25,
+isFitWidth: true});
+});*/
+</script>

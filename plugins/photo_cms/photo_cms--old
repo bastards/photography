@@ -1,0 +1,231 @@
+#------------------------------------------------------------------------
+# encoding: utf-8
+# @(#)product_generator.rb	1.00 29-Nov-2011 16:38
+#
+# Copyright (c) 2011 Jim Pravetz. All Rights Reserved.
+# Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+#
+# Description:  A generator that creates product, products and
+#		ingredients pages for jekyll sites.  Uses a JSON data
+#		file as the database file from which to read and
+#		generate the above files.
+#
+# Included filters : (none)
+#
+# Available _config.yml settings :
+# - product_title_prefix   An optional name to prefix product titles with (default '')
+# - category_meta_description_prefix An optional product metadata prefix (default 'Product: ')
+# - products_src_dir:      The source subfolder from where product, products and ingredients pages are obtained.
+# - products_dir:          The subfolder to build products pages in (default is 'products').
+# - data_dir:              The subfolder under source where data files are read.
+# - data_product_file:     The name of the JSON object file within the data_dir.
+#
+# Update History: (most recent first)
+#  22-Dec-2011 jpravetz -- Added sitemap support
+#  18-Dec-2011 jpravetz -- Added Page.to_liquid method to properly set page.url
+#   5-Dec-2011 jpravetz -- Split product.options into an array
+#  29-Nov-2011 jpravetz -- Created from category_generator.rb
+#------------------------------------------------------------------------
+
+require 'json'
+
+module Jekyll
+
+  class PhotoCMS < Page
+
+    # Initialize a new Page.
+    #
+    # site - The Site object.
+    # base - The String path to the source.
+    # dest_dir  - The String path between the dest and the file.
+    # dest_name - The String name of the destination file (e.g. index.html or myproduct.html)
+    # src_dir  - The String path between the source and the file.
+    # src_name - The String filename of the source page file, minus the markdown or html extension
+    # data_mtime - mtime of the products.json data file, used for sitemap generator
+    
+    # def initialize(site, base, dest_dir, dest_name, src_dir, src_name, data_mtime )
+    def initialize
+      @site = site
+      @base = base
+      @dir  = dest_dir
+      @dest_dir = dest_dir
+      @dest_name = dest_name
+      @dest_url = File.join( '/', dest_dir ) 
+      @dest_url = File.join( '/', dest_dir, dest_name ) if !dest_name.match( /index.html/i )
+      @src_mtime = data_mtime
+
+      src_file = File.join(base, src_dir, "#{src_name}.markdown" )
+      src_name_with_ext = "#{src_name}.markdown" if File.exists?( src_file )
+      src_name_with_ext ||= "#{src_name}.html"
+      
+      @name = src_name_with_ext
+      self.process(src_name_with_ext)
+      
+      # Read the YAML from the specified page
+      self.read_yaml(File.join(base, src_dir), src_name_with_ext )
+      
+      # Remember the mod time, used for site_map
+      file_mtime = File.mtime( File.join(base, src_dir, src_name_with_ext) )
+      @src_mtime = file_mtime if file_mtime > @src_mtime
+    end
+
+    # Override to set url properly
+    def to_liquid
+      self.data.deep_merge({
+        "url"        => @dest_url,
+        "content"    => self.content })
+    end
+
+    # Attach our  data to the global page variable. This allows pages to see this data.
+    # Use to set ingredients or products.
+    def set_data( label, data )
+      self.data[label] = data
+    end
+
+    # Attach our  data to the global page variable. This allows pages to see this data.
+    # Use to set product. Also sets the page title.
+    def set_product_data( product, prev_product, next_product )
+      self.data['product'] = product
+      self.data['product_prev'] = prev_product
+      self.data['product_next'] = next_product
+      title = product['title']
+      # Set the title for this page.
+      title_prefix             = site.config['product_title_prefix'] || ''
+      self.data['title']       = "#{title_prefix}#{title}"
+      # Set the meta-description for this page.
+      meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Product: '
+      self.data['description'] = "#{meta_description_prefix}#{product['title']}"
+    end
+
+    # Override so that we can control where the destination file goes
+    def destination(dest)
+      # The url needs to be unescaped in order to preserve the correct filename.
+      path = File.join(dest, @dest_dir, @dest_name )
+      path = File.join(path, "index.html") if self.url =~ /\/$/
+      path
+    end
+
+  end
+
+  # The Site class is a built-in Jekyll class with access to global site config information.
+  # It is not necessary to extend the Site class, it just convenient to do so. And 
+  # category_generator.rb did this, so it must be a good idea.
+  class Site
+
+    # Creates instances of ProductPage, renders then, and writes the output to a file.
+    # Will create a page for products index, ingredients index and each product.
+    def write_all_product_files
+
+      # Read the JSON file. This is our 'database'. We read obtain
+      # this object by running a command (hooked up as a Rake task) to
+      # read the data from a google spreadsheet via Google's APIs.
+      json_filename = self.config['data_product_file'] # || 'products.json'
+      data_hash = read_data_object( json_filename ) # if File.exists?( json_filename )
+      json_mtime = data_hash['mtime'] if data_hash
+      data = data_hash['data'] if data_hash
+      ingredients = data['ingredients'] if data
+      products = data['products'] if data
+      unless ingredients && products
+        return "Products or Ingredients not found in data file"
+      end
+      puts "## Products file read: found #{products.length} products and #{ingredients.length} ingredients"
+      
+      # Translate any values that need translating before we pass the data off to liquid processing
+      # new_products = clean_products( products )
+     
+      # This folder contains three source pages: ingredients,
+      # products, product. These three pages are used to build the
+      # public pages and can have a markdown or html extension
+      products_src_dir = self.config['products_src_dir'] || '_products'
+
+      # Write out all our pages
+      write_ingredients_index( ingredients, products_src_dir, 'ingredients', json_mtime )
+      write_products_index( products, products_src_dir, 'products', json_mtime )
+      write_product_indexes( products, products_src_dir, 'products', json_mtime )
+    end
+
+    # Write an ingredients/index.html page
+    def write_ingredients_index( data, products_src_dir, dest_dir, data_mtime )
+      index = ProductPage.new( self, self.config['source'], dest_dir, 'index.html', products_src_dir, 'ingredients', data_mtime )
+      index.set_data( 'ingredients', data )
+      index.render(self.layouts, site_payload)
+      # puts "## self.dest = #{self.dest}"
+      index.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << index
+    end
+
+    # Write a products/index.html page
+    def write_products_index( data, products_src_dir, dest_dir, data_mtime )
+      index = ProductPage.new( self, self.config['source'], dest_dir, 'index.html', products_src_dir, 'products', data_mtime )
+      index.set_data( 'products', data )
+      index.render(self.layouts, site_payload)
+      index.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << index
+    end
+
+    # Loops through the list of product pages and processes each one.
+    def write_product_indexes( products, products_dir, dest_dir, data_mtime )
+      if products && products.length > 0
+        if self.layouts.key? 'page'
+          products.each_with_index do |product,index|
+            write_product_page( product, products_dir, dest_dir, (index > 0 ) ? products[index-1] : nil, products[index+1], data_mtime ) if product['publish']
+          end
+        else
+          throw "No 'product' layout found."
+        end
+      end
+    end
+
+    # Write a products/product-name/index.html page
+    def write_product_page( product, products_src_dir, dest_dir, prev_product, next_product, data_mtime )
+      # Attach our product data to global site variable. This allows pages to see this product's data.
+      puts "## Processing product #{product['id']}"
+      # puts "## Previous/next products: #{prev_product ? prev_product['id'] : 'nil'}/#{next_product ? next_product['id'] : 'nil'}"
+      index = ProductPage.new( self, self.config['source'], File.join(dest_dir,product['id']), 'index.html', products_src_dir, 'product', data_mtime )
+      index.set_product_data( product, prev_product, next_product )
+      index.render(self.layouts, site_payload)
+      index.write(self.dest)
+      # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
+      self.pages << index
+    end
+
+
+    # Read and parse the JSON file under the data directory
+    # +filename+ is the String name of the file to be read
+    def read_data_object( filename )
+
+      data_dir = self.config['data_dir'] || '_data'
+      data_path = File.join(self.config['source'], data_dir)
+      if File.symlink?(data_path)
+        return "Data directory '#{data_path}' cannot be a symlink"
+      end
+      file = File.join(data_path, filename)
+
+      return "File #{file} could not be found" if !File.exists?( file )
+      
+      result = nil
+      Dir.chdir(data_path) do
+        result = File.read( filename )
+      end
+      puts "## Error: No data in #{file}" if result.nil?
+      # puts result
+      result = JSON.parse( result ) if result
+      { 'data' => result,
+        'mtime' => File.mtime(file) }
+    end
+
+  end
+
+
+  # Jekyll hook - the generate method is called by jekyll, and generates all of the product pages.
+  class ProductGenerator < Generator
+    safe true
+
+    def generate(site)
+      site.write_all_product_files
+    end
+  end
+
+end

@@ -2,7 +2,7 @@
 layout: post
 title: "Depth of Field"
 description: Controlling how much of the scene is in focus
-date: 2012-06-19 19:31
+date: 2012-06-23 19:31
 comments: true
 categories: 
 ledeimage: "moma-last-day-for-marina-abramovi-_-4658992006.jpg"

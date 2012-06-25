@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About the Bastards Book of Photography"
-date: 2012-06-19 00:01
+date: 2012-06-23 00:01
 comments: true
 sharing: true
 footer: true
@@ -11,6 +11,8 @@ ledeimage: "tour-boat-to-statue-of-liberty-_-7066483927.jpg"
 
 <div id="the-updates">
 	<strong>What's New</strong>
+	<div class="update"> <strong>6/24/2012</strong> &ndash; Added a few more examples to the Exposure and Exposure w/ Program mode chapters. </div>
+
 	<div class="update"> <strong>6/21/2012</strong> &ndash; a rough first draft with most of the framework in place. Didn't have the chance to find all the photos I needed for it. Copy is pretty loose and un-proofread. Also, I have no idea if it works in IE. </div>
 </div>
 
@@ -91,7 +93,7 @@ Watermarks have always offended my personal aesthetic and so I've avoided implem
 
 
 ## Technical details
-This book would've just been a long sloppy blog post if it weren't for the great [Octopress](http://octopress.org/ "Octopress") platform (a "[blogging framework for hackers](http://octopress.org/ "Octopress").") It's been so fun to use that I'm going to move the [Ruby book](http://ruby.bastardsbook.com) and future projects to it.
+This book would've just been a long sloppy blog post if it weren't for the great [Octopress](http://octopress.org/ "Octopress") platform (a "blogging framework for hackers", powered by Jekyll). It's been so fun to use that I'm going to move the [Ruby book](http://ruby.bastardsbook.com) and future projects to it.
 
 This site is hosted on Amazon S3 but the source code is available on [Github](https://github.com/bastards/photography).
 
@@ -115,11 +117,15 @@ I host most of my photos on Flickr with a Pro account.
 <a id="bastardsbook" name="bastardsbook"></a>
 
 ## About the Bastards Books
-The [Bastards Books](//bastardsbook.com) focus on the practical with the hope that once you've learned the basics and the motions, you'll move onto the impractical work of creativity and exploration on your own.
+The [Bastards Books](http://bastardsbook.com) focus on the practical with the hope that once you've learned the basics and the motions, you'll move onto the impractical work of creativity and exploration on your own.
 
-The first [Bastards Book focused on the Ruby programming language](//ruby.bastardsbook.com) &ndash; and is still in rough draft form. The Bastards Book of Photography is the second in the series.
+The first [Bastards Book focused on the Ruby programming language](http://ruby.bastardsbook.com) &ndash; and is still in rough draft form. The Bastards Book of Photography is the second in the series.
 
-
+## Why "Bastards"?
+From the About page of the [Bastards Book of Ruby](http://ruby.bastardsbook.com/about/):
+{% blockquote %}
+Mostly because it alliterates with "book." But I like that it emphasizes how I don't think of this as a legitimate programming book. It moves quickly past the theory in favor of getting to the "fun stuff," but only to encourage the reader to invest time in going deeper.
+{%endblockquote%}
 
 
 <div class="imgwrap wide">
@@ -139,7 +145,7 @@ Thank you to [Tom Preston-Warner](https://github.com/mojombo) for [Jekyll](https
 I've also learned a lot from colleagues in the journalism world, in particular two former Bee photographers, [Kevin German](http://kevingerman.com/) (now at the fantastic [Luceo Images](http://luceoimages.com/)) and Andy Alfaro.
 
 ## About me
-My name is [Dan Nguyen](//danwin.com) and I'm a journalist in Manhattan. You can follow me at [@dancow](http://twitter.com/dancow) on Twitter.
+My name is [Dan Nguyen](http://danwin.com) and I'm a journalist in Manhattan. You can follow me at [@dancow](http://twitter.com/dancow) on Twitter.
 
 
 <div>
@@ -153,3 +159,6 @@ Please feel free to contact me by [email](mailto:&#x64;&#x61;&#x6E;&#x40;&#x64;&
 You can also follow [@bastardsbook on Twitter](http://twitter.com/bastardsbook), [Facebook](http://www.facebook.com/The-Bastards-Book) and the blog at [blog.bastardsbook.com](http://blog.bastardsbook.com) for updates.
 
 <p>Or leave comments at the <strong>bottom</strong> of this page.</p>
+
+
+Go to the <a href="{{root}}toc">Table of Contents</a>

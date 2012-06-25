@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Overexposure"
-date: 2012-06-19 04:30
+date: 2012-06-23 04:30
 comments: true
 categories: 
 description: "Blow out the lights"
@@ -71,3 +71,11 @@ If your subject has a dark-complexion or dark attire, and you are shooting again
 You have the same options as you did with underexposed photos. Programs such as photoshop can lighten up a scene and recover some detail, especially if you shot in RAW format. But again, if your camera recorded white pixels, there won't be any detail to recover.
 
 
+
+<div class="imgwrap wide feature">
+{% imgdatadiv broad-wall-st-high-exposure-_-7406060684.jpg large%}
+<div class="caption">
+	A better composition of this photo (taken near Wall Street and the Stock Exchange) would avoid the clutter in the background and focus on the dark suits against the relatively light street. That's difficult to do with a wide-angle lens, though.
+	
+</div>
+</div>

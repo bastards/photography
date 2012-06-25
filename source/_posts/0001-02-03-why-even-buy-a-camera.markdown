@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why Even Buy a Camera?"
-date: 2012-06-19 00:10
+date: 2012-06-23 00:10
 comments: true
 categories: 
 description: "The difference between your camera phone and a dedicated camera"
@@ -22,6 +22,11 @@ For the purposes of this guide, it's best to separate cameras into two worlds:
 
 2. **Everything else** &ndash; You have the option of manually adjusting shutter speed, aperture, and ISO, among many other settings.
 
+<div class="alert">
+<h3>There <em>is</em> shutter control on phone cameras</h3>
+<p>A commenter helpfully pointed out that there are apps, such as <a href="http://itunes.apple.com/us/app/slow-shutter-cam/id357404131?mt=8" title="Slow Shutter Cam for iPhone, iPod touch (4th generation), iPad 2 Wi-Fi, iPad 2 Wi-Fi + 3G, iPad (3rd generation) and iPad Wi-Fi + 4G on the iTunes App Store">Slow Shutter Cam</a>, that can mimic shutter priority mode. So the example below is a failure. I'll have to set up another example then :) - Dan</p>
+
+</div>
 
 ## So what's wrong with automatic control?
 Nothing, really. In fact, I'll sometimes switch my camera to automatic because it does such a great job and I'd rather focus on finding the right scene or moment rather than if my dials are in the right place.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shutter Speed: Making Time for Light"
-date: 2012-06-19 16:01
+date: 2012-06-23 16:01
 comments: true
 categories: 
 description: "How long of time that the camera lets in light"

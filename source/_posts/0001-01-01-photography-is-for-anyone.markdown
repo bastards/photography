@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Photography is for Anyone"
-date: 2012-06-19 00:01
+date: 2012-06-23 00:01
 comments: true
 categories: 
 description: "A reflection on whether it's worth learning photography"

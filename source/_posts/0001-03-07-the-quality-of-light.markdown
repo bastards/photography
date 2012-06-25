@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Quality of Light and Shadow"
-date: 2012-06-19 02:00
+date: 2012-06-23 02:00
 comments: true
 categories: 
 ledeimage: "two-ships-passing-on-the-hudson-_-6333446290.jpg"

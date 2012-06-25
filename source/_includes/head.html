@@ -17,14 +17,14 @@
 
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 
-  <meta property="fb:app_id" content="431175326906533"> 
+  <meta property="fb:app_id" content="175246892605498"> 
   <meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} by Dan Nguyen" /> 
 	
 	{% if page.ledeimage %}		
-	<meta property="og:image" content="{%imgsizepath medium %}{{page.ledeimage}}" />
+	<meta property="og:image" content="{{site.url}}{%imgsizepath medium %}{{page.ledeimage}}" />
 	{% else %}
-	<meta property="og:image" content="{%imgsizepath medium %}{{site.cover_img}}" />
+	<meta property="og:image" content="{{site.url}}{%imgsizepath medium %}{{site.cover_img}}" />
 	{% endif %}
 	
 	

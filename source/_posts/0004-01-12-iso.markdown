@@ -2,7 +2,7 @@
 layout: post
 title: "Be Sensitive with ISO"
 description: "Configure your camera to do more with the light it sees"
-date: 2012-06-19 18:01
+date: 2012-06-23 18:01
 comments: true
 categories: 
 ledecaption: "Walking down Doyers Street in Chinatown, Manhattan, after dim-sum."

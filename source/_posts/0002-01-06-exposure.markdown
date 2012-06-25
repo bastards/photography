@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exposure: the Quantity of Light"
-date: 2012-06-19 02:20
+date: 2012-06-23 02:20
 comments: true
 categories: 
 description: "An introduction to how your camera lets the right (or wrong) amount of light in."
@@ -72,7 +72,41 @@ In each frame, the camera attempts to make the area within the <span style="colo
 ## How does the camera know what the "subject" is?
 By default, most cameras assume that it's what the center is. In simple point and shoots, you can't change this. In modern phone cameras, you have some flexibility in choosing the spot to expose, which I cover in the [spot-selection lesson]({%postpath spot-exposure%}).
 
-## What's wrong with properly exposing the subject?
+The default settings for most cameras, though, judge the light from multiple regions (and each camera may have a different mix). In the photo below, I've let my camera pick what it considers the proper exposure (an exposure value of 0, as I [explain in a later chapter]({%postpath exposure-program%})):
+
+<div class="imgwrap medium">
+	
+	<img src="{{site.graphics_dir}}/blue-paint-0ev.jpg" alt="blue paint 1.3EV">
+	
+	<div class="caption">According to my camera, this photo has an exposure value of 0 EV, which the camera judges as the right amount of light for this particular scene.
+</div>
+
+</div>	
+
+The camera's sensor is getting a lot of light from the overcast sky and adjusts its settings so that details in the sky, such as the cloud in the top right, can be seen. Unfortunately, that ends up obscuring the details of the painter, who is dark in comparison to the sky.
+
+Below, I've made a manual adjustment by telling the camera to increase its exposure **+1.3 steps** (or "stops"). This effectively increases the amount of light taken in by the camera by about **2.5 times as much as 0 EV**.
+
+But *don't worry about the numbers*. It's just important to see that the scene is significantly brighter than it was in the previous version. The sky is basically white, but you can now make out the details in the painter:
+
+<div class="imgwrap medium">
+	
+	<img src="{{site.graphics_dir}}/blue-paint-1-3ev.jpg" alt="blue paint 1.3EV">
+	
+	<div class="caption">The camera judges photo to have an exposure value of 1.3EV, which is about 2.5 times the amount of light of the same photo with a 0 EV
+</div>
+
+</div>	
+
+This isn't a great photo op either way (and would look better with some post-processing work), but the bottom option with the increased exposure value is closer to how I want to capture the scene: the painter, not the sky, is the interesting part.
+
+
+## My eyes can see both clouds and details in the shadows, why can't my camera?
+
+This has to do with [dynamic range](http://en.wikipedia.org/wiki/Dynamic_range#Photography): your eyes can see a greater range of light than the best camera. More expensive cameras have a higher dynamic range than cheaper ones. But the camera will always capture less detail than what you remember seeing.
+
+
+## What's wrong with letting the camera properly expose the scene?
 It's not about right or wrong; it's about what visual effect you intend to show.
 
 In the last chapter, we learned how the sun behind the subject creates a <strong>silhouette</strong>. 
@@ -99,6 +133,16 @@ But under extreme conditions, such as bright sunlight on a snowfield. Or a dark 
 *This* is why we want to take control of exposure for ourselves.
 
 
+
+
+
+<div class="imgwrap feature wide">
+	{% imgdatadiv binoculars-top-of-the-rock-_-5908183250.jpg large %}
+	
+	<div class="caption">
+		I'll be the first to admit that I don't have a lot of great examples of well-exposed photos that readily come to mind. This photo has a decent smooth distribution of midtones with just relatively small amount of areas blown out (such as the young man's white t-shirt). In a later revision, I'll discuss histograms and how they relate to exposure. DPReview.com has a <a href="http://www.dpreview.com/learn/?/key=histogram">great primer</a>.
+	</div>	
+</div>
 
 
 <div class="imgwrap feature wide">

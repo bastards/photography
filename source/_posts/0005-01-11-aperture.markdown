@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aperture: the Hole for Light"
-date: 2012-06-19 19:01
+date: 2012-06-23 19:01
 comments: true
 categories: 
 description: The bigger the hole, the bigger the light

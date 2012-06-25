@@ -2,7 +2,7 @@
 layout: post
 title: "How to Hold Still"
 description: "Tips on minimizing camera shake when your shutter speed is slow."
-date: 2012-06-19 16:30
+date: 2012-06-23 16:30
 comments: true
 categories: 
 ledeimage: "brooklyn-bridge-photographer-tourist-photo-of-_-5134407561.jpg" 

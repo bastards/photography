@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Make Interesting Photos"
-date: 2012-06-19 01:00
+date: 2012-06-23 01:00
 comments: true
 categories: 
 description: "Before taking a photo, you have to make the right opportunities"
@@ -17,11 +17,10 @@ Since I can't say much useful about how you live your life. But here are some th
 
 ## Be there
 
-<blockquote>
-   "In the midst of the conversation, as I'm now trying to recall it, I did say that 80 percent of success is showing up...The figure seems high to me today. But I know it was more than 60 and the extra syllable in 70 ruins the rhythm of the quote, so I think we should let it stand at 80."
-<div class="source"><a href="	http://www.nytimes.com/1989/08/13/magazine/on-language-the-elision-fields.html?pagewanted=all&src=pm
-">Woody Allen, to Will Safire</a></div>
-</blockquote>
+{% blockquote Woody Allen, to Will Safire http://www.nytimes.com/1989/08/13/magazine/on-language-the-elision-fields.html?pagewanted=all&src=pm New York Times%}
+In the midst of the conversation, as I'm now trying to recall it, I did say that 80 percent of success is showing up...The figure seems high to me today. But I know it was more than 60 and the extra syllable in 70 ruins the rhythm of the quote, so I think we should let it stand at 80.
+{% endblockquote %}
+
 
 Showing up with a camera is important, no matter what kind of camera it is or whether you plan to take a single photo with it. 
 
@@ -59,10 +58,10 @@ A friend told me one night while we were coming homing home one night, "I've alw
 
 ## Be close
 
-<blockquote>"If your photographs aren't good enough, you're not close enough." 
-	<div class="source"><a href="http://www.magnumphotos.com/C.aspx?VP=XSpecific_MAG.PhotographerDetail_VPage&amp;l1=0&amp;pid=2K7O3R14YQNW&amp;nm=Robert%20Capa">Robert Capa</a></div>
-	
-</blockquote>
+{% blockquote Robert Capa http://www.magnumphotos.com/C.aspx?VP=XSpecific_MAG.PhotographerDetail_VPage&amp;l1=0&amp;pid=2K7O3R14YQNW&amp;nm=Robert%20Capa Magnum Photos %}
+If your photographs aren't good enough, you're not close enough.
+{% endblockquote %}
+
 
 From a technical perspective, the closer you are to the subject, the more detail your camera can resolve, especially if your camera is of so-so quality.
 

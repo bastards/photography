@@ -2,7 +2,7 @@
 layout: post
 title: "The End"
 description: "The roadmap for future lessons and directions on how to complain to me."
-date: 2012-06-20 23:01
+date: 2012-06-23 23:50
 comments: true
 categories: 
 ledeimage: "canon-s100-first-shots-_-6468713071.jpg" 

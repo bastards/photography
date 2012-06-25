@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Setting Your Camera's Priorities"
-description: "Get ready to multitask and micromanage the three different factors your camera uses to bring in light"
-date: 2012-06-19 12:30
+description: "Get ready to multitask and micromanage how your camera brings in light"
+date: 2012-06-23 12:30
 comments: true
 categories:
 ledeimage: "union-square-show-_-4208025424.jpg" 
@@ -27,6 +27,17 @@ But thankfully, successfully managing your camera's settings on the fly depends 
 ## When I overexpose (or underexpose), how is the camera letting in more (or less) light?
 
 In **Program** mode, you're controlling the amount of light used for the photo. But your camera is taking care of the details, balancing the shutter speed, aperture, and ISO to get you the desired exposure.
+
+In the graphic below, the <span style="color:#0c0">exposure value</span>, highlighted in <span style="color:#0c0">green</span>, goes from **0.0 EV** to **1.0 EV**:
+	
+
+<div class="medium imgwrap">
+	<img src="{{site.graphics_dir}}/camera-back-p-mode-compare.jpg">
+</div>
+	
+	
+Notice how the <span style="color:#c00">shutter speed</span>, highlighted in <span style="color:#c00">red</span>, is *halved* in order to let double the light in, while the ISO and aperture remain the same.	
+
 
 ## How does the camera know which of those factors is most important?
 

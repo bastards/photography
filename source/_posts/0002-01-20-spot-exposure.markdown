@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Exposure Through Spot Selection"
-date: 2012-06-19 03:00
+date: 2012-06-23 03:00
 comments: true
 categories: 
 description: You can practice setting exposure with your touchscreen camera phone

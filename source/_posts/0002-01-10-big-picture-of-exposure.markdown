@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Big Picture About Exposure"
-date: 2012-06-19 02:30
+date: 2012-06-23 02:30
 comments: true
 categories: 
 ledeimage: viewfinders-top-of-the-rockefeller-center-_-5884743323.jpg

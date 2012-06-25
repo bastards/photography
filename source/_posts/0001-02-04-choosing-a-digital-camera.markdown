@@ -2,7 +2,7 @@
 layout: post
 title: "Choosing a Digital Camera"
 description: "Among the countless technical details, here are some key things to think about"
-date: 2012-06-19 00:15
+date: 2012-06-23 00:15
 categories: 
 ledeimage: "brooklyn-bowl-in-williamsburg-_-4828440344.jpg"
 ledecaption: "Bowling at the Brooklyn Bowl in Williamsburg"
@@ -21,7 +21,7 @@ Do you *not* carry around a bag with you everyday and everywhere? Then you shoul
 And, if you already have a great phone camera, what is it missing that prevents you from taking more satisfactory photos?
 
 
-**Note:** I'm assuming that the prospective camera has **manual controls**. I can't think of any good reason to buy a separate camera &ndash; *and* carry a good camera phone &ndash; if it doesn't have manual controls.  
+**Note:** If you already have a decent camera phone/simple point-and-shoot, I take it as a given that you want **manual controls** in your new camera. I can't think of any good reason to buy a separate camera (and carry it around) if it doesn't at least have manual controls.  
 
 
 I can't offer you advice on specific models (go to <a href="http://dpreview.com">DPReview.com</a> for all the details you can imagine). So I'll focus on factors that will significantly impact how much you'll use your new camera over your perfectly fine camera phone. 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Exposure Compensation with the Program Mode"
-date: 2012-06-19 03:30
+title: "Exposure with Program Mode"
+date: 2012-06-23 03:30
 comments: true
 categories: 
 description: "Offsetting the exposure with your camera's Program mode"
@@ -28,7 +28,9 @@ So this is how my camera automatically exposes this particular scene:
 </div>
 
 
-We'll call this **0**. As in, it has an **exposure value** of 0. Or, if you're into the brevity thing, **0 EV**.
+We'll call this **0**. As in, it has an **exposure value** of 0. Or, if you're into the brevity thing, **0 EV**. Exposure value should be considered a **relative value**; each camera may judge perceive 0 EV to be a different amount of light. 
+
+What's important to us is to see 0 as just a *starting point*.
 
 
 

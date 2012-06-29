@@ -1,6 +1,7 @@
 ---
 layout: special
 homepage: true
+pre_sharing: false
 ledeimage: ny-giants-super-bowl-parade-ticker-_-6838582959.jpg
 ---
 <div id="front-page">

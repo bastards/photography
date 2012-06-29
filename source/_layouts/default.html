@@ -4,8 +4,9 @@
   <header role="banner">{% include header.html %}</header>
   <nav role="navigation"><div class="container">{% include navigation.html %}</div></nav>
   <div id="main">
+	{% unless page.pre_sharing == false %}
 	{% include after_nav.html %}
-	
+	{% endunless %}
 	<div class="container">
     <div id="content">
       {{ content | expand_urls: root_url }}

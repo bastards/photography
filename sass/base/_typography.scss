@@ -26,15 +26,15 @@ table{
 		font-family: $table-font;
 	}
 }
-body > header h1 {
+body > header h1, h1#site-title
+ {
   font-size: 1.5em;
   @extend .heading;
   font-family: $header-title-font-family;
   font-weight: normal;
   line-height: 1.2em;
-  margin-bottom: 0.6667em;
 }
-body > header h2 {
+body > header h2, h2#site-subtitle {
   font-family: $header-subtitle-font-family;
 }
 

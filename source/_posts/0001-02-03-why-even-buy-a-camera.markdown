@@ -65,6 +65,41 @@ But there are lots of other methods and techniques of photography only available
 	<div class="caption">One of the best purchases I made was a Canon S90 Powershot. It's not much bigger than a phone so I could carry it while running. I took this shot from the Williamsburg Bridge during an evening jog. I came back the next evening with my large DSLR but the clouds just weren't the same.</div>
 </div>
 
+### Other dedicated niceties 
+It's unlikely that phone cameras, in their competition to get even slimmer and smaller, will ever have the optical zoom capability of dedicated camera lenses. Most camera phones don't have a real zoom but instead, just crop out the non-zoomed area (i.e. a zoomed-in image has fewer pixels than a non-zoomed image).
+
+With great glass comes better sharpness, of course. And as anyone who plays casual action games on their phones, touch controls can be imprecise. In real shooting situations where you have to have your fingers lie lightly on physical dials and switches to move at an instant, it's hard to imagine touch controls being adequate.
+
+
+
+## How come professional photojournalists say they use Instagram/Hipstamatic? 
+It's true, there's been a stir among the don't-even-edit-out-red-eye photojournalist crowd as some major news orgs [have come to use camera app photography for publication](http://www.poynter.org/latest-news/media-lab/social-media/169521/what-journalists-should-know-about-instagram-bought-by-facebook/). 
+
+But it's important to understand the context of why pros enjoy camera apps. The most famous case is [Damon Winters](http://lens.blogs.nytimes.com/2011/02/11/through-my-eye-not-hipstamatics/), of the New York Times, who won a [POYi award with Hipstamatic photos of the war in Afghanistan](http://www.poyi.org/68/17/third_01.php). Winters used his phone camera because that was the easiest way to get candid snapshots in tense situations and he said he would've preferred an app with lesser effects, but Hipstamatic was what he had on his phone at the time. It was the form-factor and convenience of the phone camera, and the lack of decent editing ability, [that led Winters to use Hipstamatic](http://lens.blogs.nytimes.com/2011/02/11/through-my-eye-not-hipstamatics/):
+
+
+
+
+{% blockquote Damon Winters http://lens.blogs.nytimes.com/2011/02/11/through-my-eye-not-hipstamatics/ Lens Blog: Through My Eye, Not Hipstamatic’s %}
+
+People may have the impression that it is easy to make interesting images with a camera app like this, but it is not the case. At the heart of every solid image are the same fundamentals: composition, information, moment, emotion, connection.  If people think that this is a magic tool, they are wrong. Of hundreds of images taken with the phone over those six days in Nahr-i-Sufi, only a handful were worth reproducing.
+
+
+I have no intention of becoming a camera phone photographer. I use it often for personal photos (my cat being my favorite subject), which suggests why it was the perfect tool to tell this particular story. It helped me make intimate pictures of a subject — the American soldier in wartime deployment — that is often seen only as part of a sizable, anonymous fighting machine. I cannot say if I will use the camera phone again on my job.
+{% endblockquote %}
+
+
+For other pro photographers, I suspect the reason why they're so enamored of Instamatic is for the same reason that writers love Twitter. They love it for the social network and the ability to express themselves without the heavy-overhead of the editing process. There's something very liberating about just having to select a few pre-determined filters, making the best of it, and hitting "send" to be seen. Yet no writer or photographer would commit to using a tool for a career-making assignment.
+
+
+
+
+<div class="wide feature imgwrap">
+	{%imgdatadiv manhattan-quick-storm-_-7444278252.jpg large%}
+	<div class="caption">I took this with my iPhone 4s while walking along the Hudson River after a storm. It's a respectable picture &ndash; I did no alterations to it &ndash; but in this kind of light, any camera will make a beautiful picture. The details in the water and landscape are probably too muddy for most pros to be happy with.
+		</div>	
+</div>
+
 
 ## So what's the right dedicated camera for me?
 After the question of "Does it have manual controls?" is answered, then things can get considerably complex. There is no perfect answer because among the well-reviewed cameras, it comes down to tradeoffs.
@@ -75,6 +110,7 @@ My boilerplate advice is this: choose something that fits with what you're used 
 If all you've used is a camera phone, then you're not used to carrying a separate bag for a camera. If you buy an expensive bulky camera and can't deal with the change-in-routine it requires to bring it along, then you may be wasting *a lot* of money. If you live in a big touristy city like New York, where it's acceptable (and safe) to carry huge cameras around for any occasion and you can literally point your camera anywhere and take an interesting photo, then maybe you'll care more about image quality than pocketability.
 
 Luckily, there's a wide variety of great cameras at reasonable price points, enough to let you make good decisions about tradeoffs. I don't have much advice on what specific model or brand you should get, but I've [devoted another chapter to things you should be thinking about]({%postpath choosing-a-digital-camera%}).
+
 
 
 
@@ -94,5 +130,8 @@ So if you're buying a camera, don't go into it thinking that spending more money
 	{%imgdatadiv view-from-the-high-line-_-6957146452.jpg large%}
 	<div class="caption">Even with the fancy cameras I have, I'll pull out the phone camera because sometimes, it's just easier. Although during this sunset from the High Line, I did so because my camera had run out of juice. The phone did a proper job.</div>
 </div>
+
+
+
 
 

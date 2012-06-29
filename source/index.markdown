@@ -6,7 +6,7 @@ ledeimage: ny-giants-super-bowl-parade-ticker-_-6838582959.jpg
 <div id="front-page">
 	
 <div id="front-update" class="fr">
-	<strong>June 21, 2012:</strong> First draft! Read the <a href="{{root}}about">About page</a>, skim the <a href="{{root}}toc">Table of Contents</a>. Or <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20@BastardsBook%20of%20Photography,%20an%20open-source%20visual%20guide%20to%20taking%20photos%20http%3A%2F%2Fphotography.bastardsbook.com&via=dancow">tweet</a> about it (<a href="http://news.ycombinator.com/item?id=4141538" title="The Bastards Book of Photography by Dan Nguyen">HN thread</a>).
+	<strong>Welcome!</strong>  Read the <a href="{{root}}/about">About page</a>, skim the <a href="{{root}}/toc">Table of Contents</a>. Or <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20@BastardsBook%20of%20Photography,%20an%20open-source%20visual%20guide%20to%20taking%20photos%20http%3A%2F%2Fphotography.bastardsbook.com&via=dancow">tweet</a> about it (<a href="http://news.ycombinator.com/item?id=4141538" title="The Bastards Book of Photography by Dan Nguyen">HN thread</a>).
 </div>
 
 <div class="imgwrap wide">

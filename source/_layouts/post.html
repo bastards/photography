@@ -7,7 +7,8 @@ single: true
   {% include article.html %}
 
   <footer>
-    <p class="meta">
+    
+	<p class="meta">
       Last updated: {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
     </p>
@@ -38,13 +39,3 @@ single: true
   </section>
 {% endif %}
 
-
-{% if page.sidebar == true %}
-<aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
-{% endif %}

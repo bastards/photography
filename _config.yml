@@ -108,7 +108,7 @@ disqus_show_comment_count: false
 
 # Google Analytics
 google_analytics_tracking_id: UA-24985223-1
-
+google_analytics_tracking_domain: bastardsbook.com
 # Facebook Like
 facebook_like: true
 

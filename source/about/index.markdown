@@ -161,4 +161,4 @@ You can also follow [@bastardsbook on Twitter](http://twitter.com/bastardsbook),
 <p>Or leave comments at the <strong>bottom</strong> of this page.</p>
 
 
-Go to the <a href="{{root}}toc">Table of Contents</a>
+Go to the <a href="{{root}}/toc">Table of Contents</a>

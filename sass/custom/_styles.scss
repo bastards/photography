@@ -104,7 +104,7 @@ body{
 
 	
 	#content > article header{
-		margin-top: 1.0em;
+		margin-top: 0.1em;
 	}
 
 	#content > article header p.description{
@@ -412,6 +412,8 @@ article footer div.nav-pagination{
 
 
 @media only screen and (min-width: 320px) {
+	
+	.after-nav{ display: none;} 
 	div.split{
 		width: 100%;
 		float: none;
@@ -419,6 +421,9 @@ article footer div.nav-pagination{
 }
 
 @media only screen and (min-width: 768px) {
+	
+	.after-nav{display: block;}
+	
 	div.split{
 		width: 47%;
 		float: left;
@@ -440,14 +445,10 @@ ul.plain{
 
 
 
-
-
-
-
-
-
-
 @media only screen and (min-width: 320px){
+	.fb_iframe_widget{ display: block} ;
+	
+	
 	body{
 		strong{font-weight: bold};
 	}
@@ -469,6 +470,8 @@ ul.plain{
   div.container{ width: 100% ; max-width: 480px;
 	div.thirds{clear:left; float: none; margin-left: 0;}
   }
+	
+
 	#masonry-container{	
 		div.thirds{
 			padding-left: 1%;
@@ -492,6 +495,7 @@ ul.plain{
 }
 
 @media only screen and (min-width: 768px) {
+	
 	body{
 		strong{font-weight: $font-heavy-weight};
 	}
@@ -512,15 +516,14 @@ ul.plain{
 		}
 	}
 	
- 
 	.imgwrap.medium{ width: $medium-width;  }
 	
   }
-
-
 }
 
 @media only screen and (min-width: 1024px) {
+	.fb_iframe_widget{ display: inline-block} ;
+	
   div.container{ width: $container-width; max-width: $container-width; 
 	div.thirds{
 		float: left;
@@ -570,6 +573,27 @@ ul.plain{
 	font-size: 16px;
 	line-height: 18px;
 	margin-bottom: 1.0em;
+}
+
+
+.after-nav{
+	text-align: right;
+	
+	.chiclets{
+			
+		.chiclet{
+			float: right;
+			margin-left: 10px;
+		}	
+		.chiclet.tweet{
+			font-size: 13px;
+			font-weight: 300;
+			
+			a:link, a, a:visited{
+				color: #55f;
+			}
+		}
+	}
 }
 
 

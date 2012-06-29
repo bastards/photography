@@ -5,8 +5,8 @@ date: 2012-06-23 19:01
 comments: true
 categories: 
 description: The bigger the hole, the bigger the light
-ledeimage: "south-williamsburg-about-to-be-raptured-_-5834643097.jpg"
-ledecaption: "A break in a cloudy morning while riding the East River Ferry."
+ledeimage: "hudson-river-hole-in-the-clouds-_-7445070120.jpg"
+ledecaption: "Storm clouds break up over the Hudson River before sunset."
 ---
 
 Aperture refers to how wide the lens can open. How it affects exposure is straightforward: the bigger the hole (i.e. **aperture**) for light to go through, the more light available for the exposure.

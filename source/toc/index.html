@@ -4,9 +4,13 @@ layout: special
 
 <div class="blog-index">
 <article>
-	<h2>Table of Contents</h2>
-	
-  {% assign index = true %}
+	<header>
+		<hgroup class="hd">
+
+	<h1 class="entry-title">Table of Contents</h1>	
+	</hgroup>
+  </header>
+	{% assign index = true %}
 <div id="masonry-container">
   {% for post in paginator.posts %}
   	{% assign content = post.content %}

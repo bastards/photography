@@ -105,7 +105,7 @@ Another option is to borrow a friend's expensive camera, or go into a store and 
 ### Other things, in no order of importance
 
 * Auto-focus ability
-* Ability to show in RAW format
+* Ability to shoot in RAW format
 * Battery life
 * Articulating screen
 * Viewfinder
